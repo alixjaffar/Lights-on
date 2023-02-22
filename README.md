@@ -1,5 +1,8 @@
 # ICS
 
+# Final ICS4U0 Project
+This is made using libgdx liftoff(more info below). This was made with solely java and almost all of the assets were created by hand. Please do star the repo and give us credit if you do use this game as a baseplate.
+
 A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/tommyettinger/gdx-liftoff).
 
 This project was generated with a template including simple application launchers and a main class extending `Game` that sets the first screen.
