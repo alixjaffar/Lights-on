@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="Main" tilewidth="16" tileheight="16" tilecount="1850" columns="50">
+  <image source="horror_sidescroller_assets/tileset.png" width="800" height="600"/>
+ </tileset>
+ <tileset firstgid="1851" name="Obj" tilewidth="16" tileheight="16" tilecount="2" columns="1">
+  <image source="horror_sidescroller_assets/standalone_assets/closet.png" width="23" height="37"/>
+ </tileset>
+ <tileset firstgid="1853" name="Door" tilewidth="16" tileheight="16" tilecount="2" columns="1">
+  <image source="horror_sidescroller_assets/standalone_assets/door_wooden.png" width="18" height="32"/>
+ </tileset>
+ <tileset firstgid="1855" name="Bed" tilewidth="10" tileheight="10" tilecount="3" columns="3">
+  <image source="horror_sidescroller_assets/standalone_assets/bed.png" width="36" height="11"/>
+ </tileset>
+ <tileset firstgid="1858" name="Bed1" tilewidth="16" tileheight="16" tilecount="2" columns="2">
+  <image source="horror_sidescroller_assets/standalone_assets/sofa_red_pillows.png" width="45" height="19"/>
+ </tileset>
+ <tileset firstgid="1860" name="Door1" tilewidth="16" tileheight="16" tilecount="2" columns="1">
+  <image source="horror_sidescroller_assets/standalone_assets/door.png" width="18" height="32"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="16" height="16">
+  <data encoding="csv">
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="16" height="16">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+0,0,0,107,108,0,0,0,0,0,107,108,0,0,0,0,
+0,0,0,0,2,2,2,0,0,0,0,0,0,0,0,0,
+0,0,0,0,2,2,2,0,2,0,0,0,0,0,0,0,
+0,0,51,2,2,2,2,2,0,0,51,0,0,0,0,51,
+2,0,2,2,2,2,2,2,2,2,0,2,0,2,2,0,
+0,1851,0,32,26,21,22,1853,0,0,1860,0,0,2,0,0,
+0,1852,0,82,76,71,72,1854,0,0,1861,0,0,0,1858,1859,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
